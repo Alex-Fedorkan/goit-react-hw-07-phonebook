@@ -1,4 +1,5 @@
-const baseURL = 'http://localhost:7070/contacts';
+const baseURL =
+  'https://my-json-server.typicode.com/Alex-Fedorkan/goit-react-hw-07-phonebook/contacts';
 
 const fetchContacts = () => {
   return fetch(baseURL).then(response => {
